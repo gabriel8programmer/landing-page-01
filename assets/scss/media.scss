@@ -1,0 +1,67 @@
+
+@media (max-width: 830px){
+
+    main {
+
+        article {
+            max-width: 80%;
+        }
+    }
+}
+
+@media (max-width: 498px){
+
+    main {
+
+        article {
+
+            h2 {
+                font-size: 2rem;
+            }
+             
+            p {
+                font-size: 1rem;
+             }
+        }
+    }
+
+    footer {
+
+        p {
+            font-size: .8rem;
+        }
+    }
+}
+
+@media (max-width: 468px){
+
+    header {
+
+        .row {
+            flex-direction: column;
+
+            nav {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    main {
+
+        form {
+            max-width: 100%;
+            gap: 20px;
+        }
+    }
+}
+
+@media (max-width: 382px){
+
+    main {
+
+        form {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+
+main {
+    
+    article, form {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
+    article {
+
+        h2, p {
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        p {
+            margin-top: 20px;
+            font-size: 1.5rem;
+            font-weight: 400;
+            color: #ccc;
+        }
+    }
+
+    form {
+        margin-top: 50px;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+
+        input {
+            height: 50px;
+            padding: 15px;
+            border-radius: 25px;
+            border: none;
+            font-size: 1rem;
+            background: none;
+            border: 1px solid #ddd;
+            color: #fff;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            color: white;
+            font-size: 900;
+        }
+        .btn:hover {
+            opacity: .6;
+        }
+    }
+
+}

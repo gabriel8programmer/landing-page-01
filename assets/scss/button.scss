@@ -1,0 +1,14 @@
+.btn {
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn.btn-sign-up{
+    background: $bgBtnPurple !important;
+}
+
+.btn.btn-form-send {
+    background: $bgBtnGreen !important;
+}
