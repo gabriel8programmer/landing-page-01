@@ -2,7 +2,7 @@
 main {
     
     article, form {
-        max-width: 60%;
+        width: 60%;
         margin: 0 auto;
     }
 
@@ -10,16 +10,16 @@ main {
 
         h2, p {
             text-align: center;
-            line-height: 1.2;
         }
 
         h2 {
-            font-size: 3rem;
+            font-size: 6rem;
+            line-height: 7rem;
         }
 
         p {
             margin-top: 20px;
-            font-size: 1.5rem;
+            font-size: 2.5rem;
             font-weight: 400;
             color: #ccc;
         }
@@ -28,7 +28,7 @@ main {
     form {
         margin-top: 50px;
         display: flex;
-        gap: 50px;
+        gap: 5rem;
         align-items: center;
         justify-content: center;
 
@@ -37,7 +37,7 @@ main {
             padding: 15px;
             border-radius: 25px;
             border: none;
-            font-size: 1rem;
+            font-size: 1.6rem;
             background: none;
             border: 1px solid #ddd;
             color: #fff;

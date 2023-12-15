@@ -1,67 +1,60 @@
+@media (max-width: 773px) {
 
-@media (max-width: 830px){
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 619px) {
 
     main {
 
-        article {
-            max-width: 80%;
+        article,
+        form {
+            width: 90%;
         }
     }
 }
 
-@media (max-width: 498px){
+@media (max-width: 412px) {
+
+
+    header {
+
+        .row {
+            flex-direction: column;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+    }
 
     main {
 
         article {
 
             h2 {
+                font-size: 4rem;
+                line-height: 5rem;
+            }
+
+            p {
                 font-size: 2rem;
             }
-             
-            p {
-                font-size: 1rem;
-             }
         }
-    }
 
-    footer {
-
-        p {
-            font-size: .8rem;
-        }
-    }
-}
-
-@media (max-width: 468px){
-
-    header {
-
-        .row {
+        form {
+            width: 80%;
             flex-direction: column;
+            align-items: center;
+            gap: 2rem;
 
-            nav {
-                margin-top: 20px;
+            input {
+                width: 100%;
             }
         }
     }
-
-    main {
-
-        form {
-            max-width: 100%;
-            gap: 20px;
-        }
-    }
 }
 
-@media (max-width: 382px){
-
-    main {
-
-        form {
-            flex-direction: column;
-            align-items: flex-start;
-        }
-    }
-}
+@media (max-width: 330px) {}
